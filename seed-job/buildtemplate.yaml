@@ -87,7 +87,7 @@ parameters:
   displayName: Container Index branch
   name: CONTAINER_INDEX_BRANCH
   required: true
-  value: pre-prod
+  value: master
 - description: Repository containing CentOS Container Pipeline service code
   displayName: Pipeline service repo
   name: PIPELINE_REPO
