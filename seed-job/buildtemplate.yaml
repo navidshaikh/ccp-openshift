@@ -82,12 +82,12 @@ parameters:
   displayName: Container Index
   name: CONTAINER_INDEX_REPO
   required: true
-  value: https://github.com/navidshaikh/ccp-openshift-index
+  value: https://github.com/centos/container-index
 - description: "Container Index branch to use"
   displayName: Container Index branch
   name: CONTAINER_INDEX_BRANCH
   required: true
-  value: master
+  value: pre-prod
 - description: Repository containing CentOS Container Pipeline service code
   displayName: Pipeline service repo
   name: PIPELINE_REPO
